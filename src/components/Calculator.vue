@@ -46,7 +46,11 @@
       append(number) {
         this.current = `${this.current}${number}`
       },
-      dot() {},
+      dot() {
+        if (this.current.indexOf('.') === -1) {
+          this.append('.')
+        }
+      },
     },
   }
 </script>
