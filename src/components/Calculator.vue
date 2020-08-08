@@ -1,7 +1,7 @@
 <template>
   <div class="calculator">
     <div class="display">0.34454555</div>
-    <div class="btn">AC</div>
+    <div class="btn">C</div>
     <div class="btn">+/-</div>
     <div class="btn">%</div>
     <div class="btn operator">÷</div>
@@ -38,7 +38,8 @@
 
   .display {
     grid-column: 1 / 5;
-    background-color: red;
+    background-color: #333;
+    color: white;
   }
 
   .zero {
@@ -46,8 +47,8 @@
   }
 
   .btn {
-    background-color: #eee;
-    border: 1px solid;
+    background-color: #f2f2f2;
+    border: 1px solid #333;
   }
 
   .operator {
